@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 56px 0;
+
+  .container {
+    max-width: 858px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .footer-social-icon {
+      display: flex;
+      //justify-content: space-around;
+      margin-bottom: 26px;
+
+      a {
+        font-size: 1.9em;
+        background-color: transparent;
+        margin-right: 18px;
+        margin-left: 18px;
+      }
+
+      .icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        stroke-width: 0;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: #21243D;
+      line-height: 20.56px;
+      text-align: center;
+    }
+  }
+}

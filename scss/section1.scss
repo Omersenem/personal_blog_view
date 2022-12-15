@@ -1,5 +1,4 @@
 .Hero {
-  background-color: hotpink;
   min-height: auto;
 
   .container {
@@ -9,6 +8,41 @@
   }
   .Hero-tanitim {
     display: flex;
+
+  }
+  .Hero-content {
+    padding-right: 106px;
+   h1 {
+     line-height: 1.37em;
+     font-size: 2em;
+    // margin-bottom: 36px;
+     width: 317px;
+     height: 105px;
+   }
+    p {
+      line-height: 1.33;
+      color: #21243D;
+      width: 450px;
+      height: 100px;
+      font-weight: 400;
+      font-size: 1em;
+
+    }
+    button {
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      background-color: #FF6464;
+      width: 208px;
+      height: 47px;
+    }
+  }
+  .Hero-foto {
+    background-color: #EDF7FA;
+    border-radius: 100%;
+    .Hero-foto-johnimage {
+
+    }
   }
 
 
